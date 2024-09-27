@@ -45,3 +45,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/justi/source/repos/SamePage/SamePage/Views/LogIn.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Views.LogIn.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LogIn.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LogIn.xaml
+
+[C:/Users/justi/source/repos/SamePage/SamePage/Views/SignUp.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Views.SignUp.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SignUp.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SignUp.xaml

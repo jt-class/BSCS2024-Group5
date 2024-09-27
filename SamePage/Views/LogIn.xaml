@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamePage.Views.LogIn"
+             Title="LogIn">
+    <VerticalStackLayout>
+        <Entry
+    x:Name="Email"
+    Placeholder="Email"
+    />
+
+        <Entry
+    x:Name="Password"
+    Placeholder="Password"
+    />
+
+        <Button
+    x:Name="SignUpBtn"
+    Text="Register here"
+    Clicked="SignUpPortal"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

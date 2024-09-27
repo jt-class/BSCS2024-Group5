@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SamePage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0971d78791da895c542a400cac90de7fcc00bd3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SamePage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SamePage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

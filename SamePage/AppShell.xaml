@@ -4,12 +4,15 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:SamePage"
+    xmlns:views="clr-namespace:SamePage.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="SamePage">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    Title="Home"
+    ContentTemplate="{DataTemplate views:LogIn}"
+    Route="LogIn" />
+    
+    
 
 </Shell>
