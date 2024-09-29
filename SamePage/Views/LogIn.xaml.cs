@@ -14,5 +14,12 @@ public partial class LogIn : ContentPage
 
     }
 
+    private void LoginMethod(object sender, EventArgs e)
+    {
+
+        Shell.Current.GoToAsync(nameof(SignUp));
+
+    }
+
 
 }

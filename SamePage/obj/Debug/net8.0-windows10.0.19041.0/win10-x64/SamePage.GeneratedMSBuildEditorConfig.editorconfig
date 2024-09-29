@@ -42,14 +42,44 @@ build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Resources.Styles.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/justi/source/repos/SamePage/SamePage/Views/AccInfo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Views.AccInfo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AccInfo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AccInfo.xaml
+
+[C:/Users/justi/source/repos/SamePage/SamePage/Views/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Views.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Home.xaml
+
 [C:/Users/justi/source/repos/SamePage/SamePage/Views/LogIn.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Views.LogIn.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LogIn.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LogIn.xaml
 
+[C:/Users/justi/source/repos/SamePage/SamePage/Views/SearchBuddy.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Views.SearchBuddy.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SearchBuddy.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SearchBuddy.xaml
+
 [C:/Users/justi/source/repos/SamePage/SamePage/Views/SignUp.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Views.SignUp.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SignUp.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SignUp.xaml
+
+[C:/Users/justi/source/repos/SamePage/SamePage/Views/UserEditProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Views.UserEditProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserEditProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserEditProfile.xaml
+
+[C:/Users/justi/source/repos/SamePage/SamePage/Views/UserProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SamePage.Views.UserProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserProfile.xaml

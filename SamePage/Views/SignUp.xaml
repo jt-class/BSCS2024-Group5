@@ -5,8 +5,37 @@
              Title="SignUp">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="SamePage"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Entry
+            x:Name="SignUpUname"
+            Placeholder="Username"
+            />
+
+        <Entry
+            x:Name="SignUpEmail"
+            Placeholder="Email Address"
+            />
+
+        <Entry
+            x:Name="SignUpPassword"
+            Placeholder="Password"
+            />
+
+        <Entry
+            x:Name="SignUpConfirmPassword"
+            Placeholder="Confirm Password"
+            />  
+
+        <Button
+            x:Name="SignInCreateBtn"
+            Text="Sign Up"
+            Clicked="ToAccInfo"/>        
+
+
+
+
     </VerticalStackLayout>
 </ContentPage>

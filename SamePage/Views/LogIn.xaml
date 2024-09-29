@@ -4,17 +4,28 @@
              x:Class="SamePage.Views.LogIn"
              Title="LogIn">
     <VerticalStackLayout>
-        <Entry
+    <Entry
     x:Name="Email"
     Placeholder="Email"
     />
 
-        <Entry
+    <Entry
     x:Name="Password"
     Placeholder="Password"
     />
+        
+        
+    <CheckBox x:Name="RememberMe"/>
+        
+        
+    <Button
+    x:Name="LoginBtn"
+    Text="Login"
+    Clicked="LoginMethod"/>
 
-        <Button
+    
+
+    <Button
     x:Name="SignUpBtn"
     Text="Register here"
     Clicked="SignUpPortal"/>
