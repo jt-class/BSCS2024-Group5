@@ -14,11 +14,20 @@ public partial class LogIn : ContentPage
 
     }
 
-    private void LoginMethod(object sender, EventArgs e)
+    private async void LoginMethod(object sender, EventArgs e)
     {
 
-        Shell.Current.GoToAsync(nameof(SignUp));
-
+        
+        if (string.IsNullOrWhiteSpace(Email.Text) || string.IsNullOrWhiteSpace(Password.Text))
+        {
+            
+            await DisplayAlert("Invalid Input", "Please enter both email and password.", "OK");
+        }
+        else
+        {
+            
+            await Shell.Current.GoToAsync(nameof(SignUp));
+        }
     }
 
 
