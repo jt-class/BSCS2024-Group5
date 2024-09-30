@@ -2,12 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SamePage.Views.SignUp"
-             Title="SignUp">
+             Title="SamePage">
     <VerticalStackLayout>
-        <Label 
-            Text="SamePage"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
 
         <Entry
             x:Name="SignUpUname"

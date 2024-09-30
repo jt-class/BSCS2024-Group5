@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SamePage.Views.LogIn"
-             Title="LogIn">
+             Title="SamePage">
+
     <VerticalStackLayout>
     <Entry
     x:Name="Email"
@@ -21,17 +22,20 @@
     </HorizontalStackLayout>
 
 
-        <Button
+    <Button
     x:Name="LoginBtn"
     Text="Login"
     Clicked="LoginMethod"/>
 
-    
 
-    <Button
-    x:Name="SignUpBtn"
-    Text="Register here"
-    Clicked="SignUpPortal"/>
+
+    <Label Text="Register here"
+     TextColor="Blue"
+     HorizontalOptions="Center">
+        <Label.GestureRecognizers>
+            <TapGestureRecognizer Tapped="SignUpPortal" />
+        </Label.GestureRecognizers>
+    </Label>
 
 
     </VerticalStackLayout>
