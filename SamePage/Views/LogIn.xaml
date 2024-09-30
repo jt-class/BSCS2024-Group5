@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SamePage.Views.LogIn"
+             Title="SamePage">
+
+    <VerticalStackLayout>
+    <Entry
+    x:Name="Email"
+    Placeholder="Email"
+    />
+
+    <Entry
+    x:Name="Password"
+    Placeholder="Password"
+    />
+
+
+    <HorizontalStackLayout>
+        <CheckBox x:Name="RememberMe" />
+        <Label Text="Remember Me" VerticalOptions="Center" />
+    </HorizontalStackLayout>
+
+
+    <Button
+    x:Name="LoginBtn"
+    Text="Login"
+    Clicked="LoginMethod"/>
+
+
+
+    <Label Text="Register here"
+     TextColor="Blue"
+     HorizontalOptions="Center">
+        <Label.GestureRecognizers>
+            <TapGestureRecognizer Tapped="SignUpPortal" />
+        </Label.GestureRecognizers>
+    </Label>
+
+
+    </VerticalStackLayout>
+</ContentPage>
